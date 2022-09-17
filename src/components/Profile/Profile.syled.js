@@ -56,5 +56,5 @@ export const Label = styled.p`
 
 export const Quantity = styled.p`
   color: grey;
-  margin: 0;
+  margin: 15px 0 0 0;
 `;
