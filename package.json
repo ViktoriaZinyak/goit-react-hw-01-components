@@ -2,7 +2,11 @@
   "name": "react-homework-template",
   "version": "0.1.0",
   "private": true,
+<<<<<<< HEAD
   "homepage": "https://ViktoriaZinyak.github.io/goit-react-hw-01-components",
+=======
+  "homepage": "https://ViktoriaZinyak.github.io/goit-react-hw-01-components/",
+>>>>>>> 0f632faae3e99d62d187c8c18589be91954107c3
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
