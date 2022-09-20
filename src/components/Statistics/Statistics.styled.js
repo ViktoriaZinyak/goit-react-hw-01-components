@@ -28,19 +28,19 @@ export const Item = styled.li`
   color: #fff;
   width: calc(100% / 4);
   padding: 10px;
-  :first-child {
+  :first-of-type {
     background-color: #33f6ff;
   }
-  :nth-child(6n + 2) {
+  :nth-of-type(6n + 2) {
     background-color: #9f33ff;
   }
-  :nth-child(3n) {
+  :nth-of-type(3n) {
     background-color: #ff3368;
   }
-  :nth-child(4n) {
+  :nth-of-type(4n) {
     background-color: #ff9c33;
   }
-  :last-child {
+  :last-of-type {
     background-color: #7dff33;
   }
 `;
