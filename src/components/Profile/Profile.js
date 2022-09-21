@@ -16,10 +16,10 @@ export const Profile = ({ username, tag, location, avatar, stats }) => {
   return (
     <Card>
       <Wrap>
-        <Avatar src={avatar} alt="User avatar" class="avatar" />
-        <Name class="name">{username}</Name>
-        <Tag class="tag"> @{tag} </Tag>
-        <Location class="location">{location}</Location>
+        <Avatar src={avatar} alt="User avatar" />
+        <Name>{username}</Name>
+        <Tag> @{tag} </Tag>
+        <Location>{location}</Location>
       </Wrap>
 
       <Stats>

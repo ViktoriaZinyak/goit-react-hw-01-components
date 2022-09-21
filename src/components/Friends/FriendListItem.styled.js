@@ -18,3 +18,12 @@ export const FriendMarker = styled.span`
     return props.status ? 'green' : 'red';
   }};
 `;
+
+export const Img = styled.img`
+  display: block;
+  margin-right: 10px;
+`;
+
+export const FriendName = styled.p`
+  font-size: 16px;
+`;
